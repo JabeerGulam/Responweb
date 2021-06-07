@@ -1,0 +1,665 @@
+/*   #7543e5 - violet dark  */
+/*   #6963fa - violet def  */
+/*   #413f56  - dark */
+/*   #e5e5e5 - gray  */
+
+*{
+	padding: 0;
+	margin:0;
+	font-family: arial, sans-serif;
+
+}
+
+						/*		NAVIGATION BAR START'S HERE*/
+
+.navPage{
+/*	background: #333;*/
+	padding: 15px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0 1px 3px #e5e5e5;
+	z-index: 100;
+	background-color: #ffffff;
+
+}
+
+.container{
+	width: 90%;
+	max-width: 1180px;
+	margin: 0 auto;
+
+	
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+
+nav .logo{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+	  color:  #6963fa;
+	  cursor: pointer;
+}
+.navigation{
+	display: flex;
+	list-style: none;
+}
+   .navigation a{
+   	 margin-right: 20px;
+     text-decoration: none;
+     opacity: 1;
+     color:  #333333;
+   }
+   .navigation a:hover{
+   	  opacity: 0.7;
+   }
+.buttons{
+	display: flex;
+	align-items: center;
+}
+	.buttons .loginBtn{
+	   margin-right: 20px;
+	   border: 2px solid #413f56;
+	   padding: 5px 10px ;
+	  color:  #333333;
+	   cursor: pointer;
+	   opacity: 1;
+
+	}
+	.buttons .loginBtn:hover{
+	  opacity: 0.9;
+	 
+
+	}
+	.buttons .signupBtn{
+	   background-color: #413f56;
+	   color: #ffffff;
+	   padding: 7px 10px ;
+	   opacity: 1;
+	   cursor: pointer;
+	}
+
+	.buttons .signupBtn:hover{
+			opacity: 0.9;
+	}
+
+	.burgerMenu{
+		border: 2px solid #6963fa;
+		padding: 2px 8px 1px;
+		border-radius: 3px;
+		color: #6963fa;
+		font-size: 1.5rem;
+		cursor: pointer;
+		opacity: 1;
+		display: none;
+		margin-left: 30px;
+	}
+	.burgerMenu:hover{
+		
+		opacity: 0.9;
+	}
+		
+
+
+						/*		NAVIGATION BAR ENDS HERE*/
+
+
+.mainPage{
+  min-height: 100vh;
+
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+	align-items: center;
+	padding-top: 110px;
+	text-align: center;
+
+
+}
+.content p{
+	width: 50%;
+	padding: 20px 0 40px ;
+	opacity: 0.7;
+	line-height: 1.5rem;
+
+
+}
+
+.searchInput{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	position: relative;
+}
+
+.imgSearch{
+	width: 500px;
+	height: auto;
+	
+}
+
+.imgSearch img{
+	width: 100%;
+	
+}
+
+form{
+	width: 50%;
+	
+}
+.labelInput{
+
+	display: flex;
+	width: 100%;
+	height: 100%;
+	
+	
+}
+.labelInput .labelContent{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	
+
+}
+
+.labelInput input[type="text"]{
+
+		width: 100%;
+		padding: 10px;
+		font-size: 1.1em;
+		margin-bottom: 25px;
+		outline: none;
+		box-sizing: border-box;
+		
+
+	}
+.labelInput input[type="submit"]{
+
+		padding: 10px;
+		font-size: 1.1em;
+		cursor: pointer;
+		background-color: #6963fa;
+		color: #ffffff;
+		border: 0;
+		border-radius: 3px;
+		box-sizing: border-box;
+
+		}
+
+							/*		LANDING PAGE ENDS HERE*/
+
+.ServicesPage{
+	  min-height: 100%;
+	  background-color: #f1f1f1;
+	  padding:  100px 0;
+	  box-sizing: border-box;
+}
+
+.servCaption p{
+	margin-top: 20px;
+	color: #333;
+	line-height: 1.5rem;
+}
+.servCards{
+	padding-top: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+.card{
+	width: 32%;
+	min-width: 200px;
+	box-shadow: 1px 1px 4px #333;
+	box-sizing: border-box;
+	padding: 30px;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+.card:hover{
+	transform: scale(1.01);
+
+}
+
+.card span{
+	font-size: 4em;
+	color: #6963fa;
+}
+.card h3{
+	
+	padding: 20px 0;
+}
+.card p{
+	
+	color: #333;
+	line-height: 1.5rem;
+}
+
+
+				/********************Services Provide ends here*/
+
+.hostingPage{
+	background-image: url("../image/pricing-bg.jpg");
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	padding: 100px 0;
+}
+	.hostCaption{
+		text-align: center;
+		color: #ffffff;
+		width: 70%;
+		margin: 0 auto;
+	}
+	.hostCaption p{
+	padding: 30px 0;
+	line-height: 1.5rem;
+	}
+
+	.cardList{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+	}
+
+	.host{
+		background-color: #ffffff;
+		padding: 50px 20px;
+		width: 31%;
+		box-sizing: border-box;
+		box-shadow: 1px 1px 3px #333;
+		text-align: center;
+		position: relative;
+	}
+
+	.hostprice {
+		
+		padding: 30px;
+		display: block;
+		border-bottom: 1px solid #e5e5e5;
+
+	}
+	.hostprice > p{
+		
+		color: #333;
+		line-height: 1.5rem;
+	}
+
+	.priceBg{
+		background-color:  #6963fa ;
+		padding: 30px 0;
+		color: #ffffff;
+		border-radius: 4px;
+		margin-bottom: 20px;
+
+	}
+
+	.checkList ul{
+		list-style: none;
+		text-align: start;
+	}
+
+	.checkList li{
+		line-height: 3rem;
+		color: #333;
+	}
+
+	.checkList span{
+		
+		color: #6963fa;
+		margin-right: 15px;
+	}
+
+	.planButton{
+		position: absolute;
+		background-color: #6963fa;
+		bottom: -23px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 100px;
+		margin: auto;
+		padding: 15px 15px;
+		color: #ffffff;
+		text-transform: uppercase;
+		cursor: pointer;
+		border-radius: 2px;
+		font-size: 0.8rem;
+		opacity: 1;
+	
+	}
+	.planButton:hover{
+		opacity: 0.95;
+	}
+
+
+
+	/********************HOSTING PLAN  ends here*/
+
+
+	.featurePage{
+		padding: 100px 0;
+
+	}
+
+	.ftList{
+		margin-top: 80px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	
+	
+	}
+
+	.ftrContent h1{
+		text-align: center;
+	}
+
+	.list{
+
+		display: flex;
+		padding: 20px;
+		box-shadow: 1px 1px 4px gray;
+		width: 45%;
+		margin-top: 20px;
+
+
+	}
+	.list img{
+
+		width: 75px;
+		height: 56px;
+		margin-right: 20px;
+	}
+	.listTitle{
+		font-size: 1.2rem;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+
+	.captcon {
+		color: #333;
+	}
+
+
+						/****FOOTER PAGE STARTS HERE******/
+
+	.footerPage{
+		padding: 50px 0;
+		background-image: url(../image/footer-bg.jpg);
+		color: #ffffff;
+	}
+
+	.ftrCont{
+		display: flex;
+		border-bottom: 1px solid #ffffff;
+	}
+
+	.ftrList{
+		width: 50%;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.ftrList h3, .continside{
+		margin-bottom: 20px;
+
+	}
+
+	.continside  p, .continside  li{
+		font-size: 0.9rem;
+		margin-bottom: 10px;
+	}
+
+	.continside ul{
+		list-style: none;
+		
+			}
+
+	.copy{
+		text-align: center;
+		margin-top: 50px;
+		font-style: italic;
+		font-size: 0.9rem;
+	}
+
+@media screen and (max-width: 1000px){
+ .navigation{
+		position: absolute;
+		top: 65px;
+		left: 0;
+		right: 0;
+		flex-direction: column;
+		text-align: center;
+		display: none;
+
+	}
+
+	   .navigation a{
+	 	 color: #fff;
+	 	 padding: 20px 0;
+	 	 display: block;
+	 	 opacity: 1;
+	 	 background-color: #6963fa;
+	 	 width: 100%;
+
+	 	 
+	   }
+
+	   .navigation a:hover{
+   	  	opacity: 1;
+   	  	background-color: #f1f1f1;
+   	  	color: #6963fa;
+  		}
+
+	  .active{
+	  	display: flex;
+	  }
+	
+
+.burgerMenu {
+		display: block;
+    }
+
+    /*		NAVIGATION BAR ENDS HERE*/
+	
+
+}
+
+
+@media screen and (max-width: 905px){
+
+		.ftList{
+			justify-content: center;
+		}
+		.list{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 768px){
+
+
+.content p{
+	width: 100%;
+/
+}
+.searchInput{
+	flex-direction: column;
+	align-items: center;
+}
+
+.imgSearch{
+	width: 100%;
+	height: auto;
+	
+	}
+
+
+form{
+	width: 100%;
+
+	
+}
+
+.labelInput .labelContent{
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px 0;
+
+}
+.labelInput input[type="text"]{
+
+		width: 98%;
+		margin-bottom: 0;
+		border-radius: 3px 0 0 3px;
+
+	}
+
+	.labelInput input[type="submit"]{
+
+		border-radius: 0 3px 3px 0;
+		border: 1px solid #6963fa;
+		
+
+	}
+
+
+
+				/*	   LANDING PAGE ENDS HERE TABLET VIEWPORT    */
+
+
+.servContent{
+	
+
+	}
+.servCards{
+	
+	
+	width: 100%;
+	flex-wrap: wrap;
+	
+}
+.card{
+	width: 48%;
+}
+.card3{
+	margin-top: 30px;
+}
+
+
+
+
+				/*SERVICES PAGE ENDS HERE*/
+.cardList{
+	flex-wrap: wrap;
+
+	}
+.host{
+	
+		width: 45%;
+	}
+
+	.host3{
+		margin-top: 45px;
+		
+	}
+	.planButton{
+		padding: 15px 20px;
+		font-size: 0.8rem;
+	}
+}
+
+@media screen and (max-width: 480px){
+
+.buttons{
+	display: flex;
+	align-items: center;
+	width: 40%;
+}
+
+.buttons .signupBtn, .buttons .loginBtn{
+	   font-size: 0.7rem;
+	   width: 50%;
+	   padding: 5px;
+	   text-align: center;
+	}
+	.buttons .loginBtn{
+	   margin-right: 5px;
+	  
+	}
+	.buttons .signupBtn{
+	  padding: 7px;
+	}
+	.burgerMenu{
+	
+		margin-left: 0px;
+	}
+
+	.labelInput .labelContent{
+	flex-direction: column;
+
+}
+
+.labelInput input[type="text"]{
+
+		width: 100%;
+		margin-bottom: 0;
+		border-radius: none;
+
+	}
+
+.labelInput input[type="submit"]{
+
+		width: 100%;
+		margin-top: 15px;
+		border-radius: 3px;
+	}
+
+						/*MAIN PAGE ENDS HERE*/
+
+
+.card{
+	width: 100%;
+}
+.card2{
+	margin-top: 30px;
+}
+
+.host{
+	
+		width: 100%;
+	}
+
+	.host2{
+		margin-top: 45px;
+	}
+	.host3{
+		margin-top: 45px;
+	}
+
+
+
+				/********footer page start here*/
+.ftrCont {
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+}

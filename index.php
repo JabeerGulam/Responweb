@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" name="device=width-device, initial-scale=1, shrink-to-fit=no">
+	<title>Responsive Website</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/fontawesome/css/all.css">
+
+	<script src="assets/js/jquery.js"></script>
+</head>
+<body>
+	<div class="navPage">
+		<div class="container">
+			<nav>
+				<div class="logo">
+					<p>ResWeb</p>
+				</div>
+				<ul class="navigation">
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">Services</a>
+					</li>
+					<li>
+						<a href="#">Hosting Plan</a>
+					</li>
+					<li>
+						<a href="#">Our Features</a>
+					</li>
+				</ul>
+				<div class="buttons">
+					<a  class="loginBtn">LOG IN</a>
+					<a class="signupBtn">SIGN UP</a>
+				</div>
+
+				<div class="burgerMenu">
+					<span><i class="fas fa-bars"></i></span>
+				</div>
+			</nav>
+		</div>
+	</div>
+
+	<!-- /*		NAVIGATION BAR ENDS HERE*/ -->
+
+
+	<div class="mainPage">
+		<div class="container">
+			<div class="content">
+				<h1 class="title">SEARCH YOUR FREE DOMAIN</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+				<div class="searchInput">
+					<div class="imgSearch">
+						<img src="assets/image/image2.jpg">
+					</div>
+					<form>
+						<div class="labelInput">
+							<div class="labelContent">
+								<input type="text" name="search" placeholder="Enter your domain here...">
+								<input type="Submit" name="submit" value="SEARCH NOW">
+							</div>
+
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+					<!-- 	/*		LANDING PAGE ENDS HERE*/ -->
+	<div class="ServicesPage">
+		<div class="container">
+			<div class="servContent">
+				<div class="servCaption">
+					<h1>Services we provide</h1>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut.</p>
+				</div>
+				<div class="servCards">
+					<div class="card card1">
+						<span><i class="fas fa-database"></i></span>
+						<h3>10x Light Cloud</h3>
+						<p>Aenean sit amet leo vitae tellus vehicula tincidunt vel sed lorem. Nullam tincidunt commodo magna, id aliquam sapien sollicitudin id.</p>
+					</div>
+					<div class="card card2">
+						<span><i class="fas fa-cogs"></i></span>
+						<h3>Managed VPS</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco.</p>
+					</div>
+					<div class="card card3">
+						<span><i class="fas fa-tasks"></i></span>
+						<h3>Fully Dedicated</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hostingPage">
+		<div class="container">
+			<div class="hostContent">
+				<div class="hostCaption">
+					<h1>ResWeb Hosting Plans</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod.</p>
+				</div>
+				<div class="cardList">
+					<div class="host host1">
+						<h3>Basic Host 2x</h3>
+						<div class="hostprice">
+							<div class="priceBg">
+								<h1>$28.1</h1>
+								<P>Monthly</P>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore.</p>
+						</div>
+						<div class="checkList">
+							<ul>
+								<li><span><i class="fas fa-check"></i></span>500 GB Storage Space</li>
+								<li><span><i class="fas fa-check"></i></span>3 TB Data Transfer</li>
+								<li><span><i class="fas fa-check"></i></span>Basic Managed Panel</li>
+								<li><span><i class="fas fa-check"></i></span>24/7 Fast Support</li>
+								<li><span><i class="fas fa-check"></i></span>100 Premium Themes</li>
+								<li><span><i class="fas fa-check"></i></span>Cancel or Upgrade Anytime</li>
+							</ul>
+						</div>
+						<div class="planButton">Start plan</div>
+					</div>
+					<div class="host host2">
+						<h3>Fast Host 5x</h3>
+						<div class="hostprice">
+							<div class="priceBg">
+								<h1>$35</h1>
+								<P>Monthly</P>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore.</p>
+						</div>
+						<div class="checkList">
+							<ul>
+								<li><span><i class="fas fa-check"></i></span>1 TB Cloud Space</li>
+								<li><span><i class="fas fa-check"></i></span>8 TB Data Transfer</li>
+								<li><span><i class="fas fa-check"></i></span>Fully Managed Panel</li>
+								<li><span><i class="fas fa-check"></i></span>15-minute Quick Support</li>
+								<li><span><i class="fas fa-check"></i></span>Unlimted Web Addons</li>
+								<li><span><i class="fas fa-check"></i></span>Cancel or Upgrade Anytime</li>
+						</ul>
+						</div>
+						<div class="planButton">Start plan</div>
+					</div>
+					<div class="host host3">
+						<h3>Extreme Host 8x</h3>
+						<div class="hostprice">
+							<div class="priceBg">
+								<h1>$40.5</h1>
+								<P>Monthly</P>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore.</p>
+						</div>
+						<div class="checkList">
+							<ul>
+								<li><span><i class="fas fa-check"></i></span>4 TB Cloud Space</li>
+								<li><span><i class="fas fa-check"></i></span>20 TB Data Transfer</li>
+								<li><span><i class="fas fa-check"></i></span>Fully Managed Panel</li>
+								<li><span><i class="fas fa-check"></i></span>15-minute Quick Support</li>
+								<li><span><i class="fas fa-check"></i></span>Top Notch Web Apps</li>
+								<li><span><i class="fas fa-check"></i></span>Advanced Scalable</li>
+						</ul>
+						</div>
+						<div class="planButton">Start plan</div>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="featurePage">
+		<div class="container">
+			<div class="ftrContent">
+				 <h1>Responsive Web Feature</h1>
+				 <div class="ftList">
+				 	<div class="list">
+				 		<img src="assets/image/feature.png">
+				 		<div class="listCap">
+				 			<p class="listTitle">Load Balanced</p>
+				 			<p class="captcon">Nulla nisl ex, vehicula in urna nec, commodo consectetur augue. Vivamus nec metus mauris. Praesent lacinia tempus urna.</p>
+				 		</div>
+				 	</div>
+				 	<div class="list">
+				 		<img src="assets/image/feature.png">
+				 		<div class="listCap">
+				 			<p class="listTitle">99.9% Uptime Guaranteed</p>
+				 			<p class="captcon">Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+				 		</div>
+				 	</div>
+				 	<div class="list">
+				 		<img src="assets/image/feature.png">
+				 		<div class="listCap">
+				 			<p class="listTitle">Top Reliability</p>
+				 			<p class="captcon">Nulla nisl ex, vehicula in urna nec, commodo consectetur augue. Vivamus nec metus mauris. Praesent lacinia tempus urna.</p>
+				 		</div>
+				 	</div>
+				 	<div class="list">
+				 		<img src="assets/image/feature.png">
+				 		<div class="listCap">
+				 			<p class="listTitle">High Security</p>
+				 			<p class="captcon">Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+				 		</div>
+				 	</div>
+				 	<div class="list">
+				 		<img src="assets/image/feature.png">
+				 		<div class="listCap">
+				 			<p class="listTitle">Quality Hardwares</p>
+				 			<p class="captcon">Lorem ipsum dolor ame taxidermy sriracha cardigan salvia actually vice migas en pin sustainable carry scenester.</p>
+				 		</div>
+				 	</div>
+				 	<div class="list">
+				 		<img src="assets/image/feature.png">
+				 		<div class="listCap">
+				 			<p class="listTitle">Network Solutions</p>
+				 			<p class="captcon">Nulla nisl ex, vehicula in urna nec, commodo consectetur augue. Vivamus nec metus mauris. Praesent lacinia tempus urna.</p>
+				 		</div>
+				 	</div>
+				 </div>
+
+			</div>
+		</div>
+	</div>
+	<div class="footerPage">
+		<div class="container">
+			<div class="ftrCont">
+				<div class="ftrList">
+					<div class="continside">
+						<h3>About Us</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut.</p>
+					</div>
+				</div>
+				<div class="ftrList info">
+					<div class="continside">
+						<h3>More Information</h3>
+						<ul>
+							<li>Phone: 090-670-106</li>
+							<li>Email: Resweb@gmail.com</li>
+							<li>Support: support@company.com</li>
+							<li>Website: www.company.com</li>
+						</ul>
+					</div>
+				
+				</div>
+			</div>
+			<p class="copy">Copyright © 2021 Resweb Company - Designed by Jabeeran</p>
+
+		</div>
+	</div>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
