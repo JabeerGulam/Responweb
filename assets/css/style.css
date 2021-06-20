@@ -570,16 +570,9 @@ form{
 				/*	   LANDING PAGE ENDS HERE TABLET VIEWPORT    */
 
 
-.servContent{
-	
-
-	}
 .servCards{
-	
-	
 	width: 100%;
 	flex-wrap: wrap;
-	
 }
 .card{
 	width: 48%;
